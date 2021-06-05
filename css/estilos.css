@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgba(240, 160, 105, 1);
+	color: #000;
+}
+
+.wrapper {
+	width: 80%;
+	min-width: 1000px;
+	margin: auto;
+}
+
+header {
+	background-image: url(https://www.mexique.campusfrance.org/sites/pays/files/mexique/styles/desktop_paragraph_parallax/public/medias/images/2017-10/Fotolia_118995501_Subscription_Monthly_M.jpg?itok=A6r5e4NW);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+	opacity: 1;
+	margin-bottom: 20px;
+	height: 100vh;
+}
+
+header .logo {
+	color: rgba(200, 60, 60, 1);
+	font-size: 50px;
+	line-height:80px;
+	float: left;
+}
+
+header nav {
+	line-height:80px;
+	float: right;
+}
+
+header nav a {
+	display: inline-block;
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius:50px;
+}
+
+header nav a:hover {
+	background: rgba(200, 60, 60, 1);
+	color: rgb(255, 255, 255);
+}
